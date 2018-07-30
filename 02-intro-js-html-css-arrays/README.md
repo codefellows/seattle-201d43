@@ -48,6 +48,24 @@ As a result of completing Lecture 2 of Code 201, students will:
 
 [-top-](#top)
 
+## Warmup Questions
+
+Answer these in writing (paper or whiteboard) with a partner. Be prepared to share your answers!
+1. What is wireframing?
+2. What is semantic HTML?
+3. What is the relationship between wireframing and semantic HTML?
+4. What are the jobs of HTML, CSS, and JS? Which file has the job of knowing where to find the other two?
+5. What will be `console.log`'d as a result of running this code?
+```js
+var info = 123;
+console.log('stuff is ' + stuff);
+var stuff = 'abc';
+console.log('info is ' + info);
+var wow = 24;
+console.log('info plus wow is ' + info + wow);
+var sum = info + wow;
+console.log('or is it ' + sum + '?');
+```
 <a id="html"></a>
 
 ## HTML
