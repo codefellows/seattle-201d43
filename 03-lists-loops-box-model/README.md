@@ -36,7 +36,7 @@ We're not going to go over the chapter on HTML lists in much detail in class, bu
 
 ## Code Review
 
-Let's take about 30 minutes to do our first code review session. We're going to look at someone's code, have students read through it and explain it, take questions, and so on. Code review is an important part of professional development processes and also a key part of our learning environment in this course.
+We're going to look at someone's code, have students read through it and explain it, take questions, and so on. Code review is an important part of professional development processes and also a key part of our learning environment in this course.
 
 [-top-](#top)
 
