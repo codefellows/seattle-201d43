@@ -1,0 +1,17 @@
+article p.first-paragraph.orange {
+  background-color: orange;
+}
+
+.first-paragraph {
+  background-color: magenta;
+}
+
+p {
+  background-color: blue;
+  color: white;
+}
+
+article {
+  background-color: red;
+  padding: 20px;
+}
