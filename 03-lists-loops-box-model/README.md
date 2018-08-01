@@ -17,6 +17,12 @@ As a result of completing Lecture 3 of Code 201, students will:
 - Demonstrate understanding of and explain what HTML element attributes are and how to use them, as measured by successful completion of the daily code assignment and a quiz administered in Canvas
 - Demonstrate understanding of and illustrate the CSS box model, as measured by successful completion of the daily code assignment and a quiz administered in Canvas
 
+## Warmup questions
+
+1. Draw a picture with your computer and GitHub (in the cloud) that shows where the steps `clone, add, commit, push` move code.
+2. Why do we care about using lists on HTML pages?
+3. What's the CSS box model?
+
 ## Readings
 
 - HTML Chapter 3: "Lists"
