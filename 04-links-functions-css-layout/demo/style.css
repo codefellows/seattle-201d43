@@ -1,0 +1,24 @@
+a {
+  background-color: lightpink;
+  min-width: 400px;
+  padding-left: 50px;
+}
+
+li {
+}
+
+h1 {
+  position: fixed;
+  background-color: purple;
+  height: 100px;
+  width: 100%;
+  top: 0px;
+  margin: 0px;
+  z-index: 2;
+}
+
+
+main {
+  position: absolute;
+  top: 100px;   
+}
