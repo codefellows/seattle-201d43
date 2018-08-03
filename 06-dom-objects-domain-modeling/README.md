@@ -33,6 +33,18 @@ As a result of completing Lecture 6 of Code 201, students will:
 
 [-top-](#top)
 
+## Practicing Domain Modeling
+
+In groups of ~4, come up with a domain model for the given domain. Consider attributes and behaviors, and come up with a predicted data type for each attribute.
+
+Domains:
+1. Weekly CodeFellows survey responses
+2. Neighborhood parking permits
+3. Bank accounts
+4. Apartment-for-rent listings
+5. Kids at a daycare
+6. Laptops for sale at Best Buy
+
 ### Notes on the assigned readings
 
 **Article on Domain Modeling (Sobol)**
