@@ -3,6 +3,8 @@
 <a id="top"></a>
 ## Lecture 5
 
+## Find today's lab [at this link](https://github.com/codefellows/seattle-201d43-lab-5)!
+
 ## Today's Schedule
 - Announcements
 	- **Reminder:** Weekly surveys will go out to students in email. Your survey responses are very helpful and meaningful to us. Feedback is a gift.
@@ -90,9 +92,9 @@ To deploy your work so it's available online, we'll use GitHub pages. You can fo
 
 <a id="lab"></a>
 
-## Code demo for today's lab
+## Code demo for [today's lab](https://github.com/codefellows/seattle-201d43-lab-5)
 
-Today's lab is a 'one-off' lab, in that it is not directly connected to your weekly project.
+[Today's lab](https://github.com/codefellows/seattle-201d43-lab-5) is a 'one-off' lab, in that it is not directly connected to your weekly project.
 
 You'll be working individually today. The GitHub workflow today is different, too, and is designed to give you a lot of practice working with branches, which is the last major piece of Git for us to cover. We need to spend a bit of time with it, and get practice with it, so that you understand what you are doing.
 
