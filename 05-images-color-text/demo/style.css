@@ -1,0 +1,21 @@
+img {
+  max-width: 100%;
+}
+
+img:hover {
+  opacity: .5;
+}
+
+body {
+  background-color: #72b4ad;
+}
+
+span {
+  display: none;
+  margin-left: 20px;
+  font-size: 50%;
+}
+
+heading:hover span {
+  display: initial;
+}
