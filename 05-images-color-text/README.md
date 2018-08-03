@@ -38,7 +38,7 @@ As a result of completing Lecture 5 of Code 201, students will:
 **HTML Chapter 5: "Images"**
 
 - p.97: Choosing and storing images
-- p.99: \<img> tag with 'height' and 'width' attributes
+- p.99: `<img>` tag with 'height' and 'width' attributes
 - p.101: Image alignment in text
 - p.107: 3 rules for creating images
 - p.109: Image formats (JPG, GIF, PNG)
@@ -84,6 +84,9 @@ As a result of completing Lecture 5 of Code 201, students will:
 ## Git branching, including deployment
 
 It's time to take a look at branching in Git. We'll also go over the commands and do some practice with Git branches together in our terminals.
+
+## Deployment Basics
+To deploy your work so it's available online, we'll use GitHub pages. You can follow [their directions](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/#enabling-github-pages-to-publish-your-site-from-master-or-gh-pages) on how to publish your site so it's available at *yourusername*.github.io/about-me.
 
 <a id="lab"></a>
 
