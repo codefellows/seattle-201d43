@@ -32,7 +32,7 @@ As a result of completing Lecture 6 of Code 201, students will:
 - [Read about Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 
 [-top-](#top)
-
+<!-- 
 ## Practicing Domain Modeling
 
 In groups of ~4, come up with a domain model for the given domain. Consider attributes and behaviors, and come up with a predicted data type for each attribute.
@@ -43,7 +43,7 @@ Domains:
 3. Bank accounts
 4. Apartment-for-rent listings
 5. Kids at a daycare
-6. Laptops for sale at Best Buy
+6. Laptops for sale at Best Buy -->
 
 ### Notes on the assigned readings
 
