@@ -1,9 +1,5 @@
 console.log('js loaded');
 
-// global variables
-var myName = 'Michelle';
-
-
 // set up instance methods that I will attach to the constructor
 
 // add one person's info to the page
