@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Yay</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+  <heading id="header"><h1>Code 201d43</h1></heading>
+  
+  <section>
+    <h2>People:</h2>
+    <section>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Shoe Size</th>
+            <th>Eye Color</th>
+            <th>Shirt Color</th>
+          </tr>
+        </thead>
+        <tbody id="main-content">
+         
+        </tbody>
+        <tfoot>
+          <tr>
+              <td>Name</td>
+              <td>Shoe Size</td>
+              <td>Eye Color</td>
+              <td>Shirt Color</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+    <section>
+      <form id="personForm">
+        <div>
+          <label for="name">Enter your name:</label><input id="name" name="name" type="text" />
+        </div>
+        <fieldset>
+          <label for="shoeSize">Enter your shoe size:</label><input id="shoeSize" name="shoeSize" type="number" step="0.5" min="1" max="70"/>
+          <label for="eyes">Enter your eye color:</label><input id="eyes" name="eyes" type="text" maxlength="20" minlength="2" required placeholder="black" />
+          <label for="shirt">Enter your shirt color:</label><input id="shirt" name="shirt" type="color" required />
+        </fieldset>
+        <input type="submit" value="Add person" />
+      </form>
+    </section>
+  </section>
+  <script src="app.js"></script>
+</body>
+</html>
