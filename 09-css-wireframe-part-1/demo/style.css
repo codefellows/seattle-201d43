@@ -12,3 +12,15 @@ h1 {
 header {
   text-align: center;
 }
+
+div.taco {
+  display: inline-block;
+  border: 2px solid gray;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 5px;
+  background-color: #ddffdd;
+}
+.taco img {
+  max-width: 100px;
+}
