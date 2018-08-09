@@ -6,6 +6,7 @@
 ## Today's Schedule
 - Announcements
   - It's not too soon to start thinking about final projects. Let's have a conversation about that, because soon you're going to be divided up into teams and starting on your projects.
+  - Michelle will be in late on Monday, so Brian (Principal Instructor) will be here for code review.
 - Code Review *[75 minutes]*
 - [Layout Demo 1](#layout1) *[60 minutes]*
 - [Layout Demo 2](#layout2) *[75 minutes]*
