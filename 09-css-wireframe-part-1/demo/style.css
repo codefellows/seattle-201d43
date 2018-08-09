@@ -1,0 +1,18 @@
+header img {
+  max-width: 200px;
+}
+
+header span {
+  vertical-align: middle;
+}
+
+h1 {
+  display: inline;
+  font-size: 5em;
+  position: relative;
+  bottom: 42px;
+}
+
+header {
+  justify-content: center;
+}
