@@ -13,14 +13,23 @@ header {
   text-align: center;
 }
 
+main {
+  max-width: 1000px;
+  text-align: center;
+}
 div.taco {
   display: inline-block;
   border: 2px solid gray;
   border-radius: 2px;
   margin: 10px;
-  padding: 5px;
+  padding: 20px 50px;
   background-color: #ddffdd;
 }
+
+h3 {
+  text-align: center;
+}
+
 .taco img {
   max-width: 100px;
 }
