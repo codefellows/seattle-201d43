@@ -5,9 +5,10 @@
 
 ## Today's Schedule
 - Announcements
+  - This afternoon, go watch at least two dotnet final presentations between 1:30 and 3:00! You get extra time on your lab accordingly.
+  - Reminder: all resubmits are due *one week from Monday*. If you have resubmits to complete, you should strive to catch up this weekend, because you'll have the final exam to do next weekend.
   - Reminder: Michelle in late on Monday, but Brian will be here, so please be on time.
   - Reminder: Journals should be completed each night, and no resubmits are allowed.
-  - Reminder: all resubmits are due *one week from Monday*. If you have resubmits to complete, you should strive to catch up this weekend, because you'll have the final exam to do next weekend.
   - Reminder: weekly surveys will go out tonight.
   - Project Week starts a week from today! Let's look over some samples of projects from recent offerings of this class.
     - [Buzz Fellows](https://ashtonkellis.github.io/buzz-fellows/) ([code](https://github.com/ashtonkellis/buzz-fellows))
@@ -53,7 +54,7 @@ var classInfo201d43 = [
   new Student('Aleksander Stoforandov', 67, true),
   new Student('Suzanne Su', 65, true),
   new Student('Idont Likecode', 73, false),
-  // some ommited for space reasons
+  // some omitted for space reasons
 ];
 
 // what single line of code will let me console.log Suzanne's height?
