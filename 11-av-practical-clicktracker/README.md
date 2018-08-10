@@ -9,6 +9,8 @@
   - Project Week is getting closer! Pitch your project idea in the Canvas assignment.
   - Review feedback from week 2 surveys
 - Discuss upcoming Career Coaching assignments
+  - Resume review
+  - 60 second professional pitch
 - Code Review *[30 minutes]*
 - [Go over the assigned readings](#readings) *[60 minutes]*
 - Code demo *[90 minutes]*
