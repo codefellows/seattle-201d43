@@ -22,7 +22,7 @@ goat1.shown = 1;
 goat2.shown = 1;
 
 function displayTwoNewGoats() {
-  if (Goat.totalVotes > 10) {
+  if (Goat.totalVotes >= 10) {
     displayResults();
   } else {
     // show new pictures to user
@@ -45,9 +45,13 @@ function displayResults() {
   console.log('done');
   img1.remove();
   img2.remove();
+  // need something similar for the numbers
   var namesArray = [];
+  var votesArray = [];
   for (var i = 0; i < Goat.allGoats.length; i++) {
+    // also add numbers to the new array
     namesArray.push(Goat.allGoats[i].name);
+    votesArray.push(Goat.allGoats[i].votes);
   }
   var ctx = document.getElementById('myChart').getContext('2d');
   var myChart = new Chart(ctx, {
@@ -56,7 +60,7 @@ function displayResults() {
       labels: namesArray,
       datasets: [{
         label: '# of Votes',
-        data: [12, 19, 3, 5, 2, 3],
+        data: votesArray, // these numbers seem important
         backgroundColor: [
           'rgba(255, 99, 132, 0.2)',
           'rgba(54, 162, 235, 0.2)',
@@ -65,14 +69,7 @@ function displayResults() {
           'rgba(153, 102, 255, 0.2)',
           'rgba(255, 159, 64, 0.2)'
         ],
-        borderColor: [
-          'rgba(255,99,132,1)',
-          'rgba(54, 162, 235, 1)',
-          'rgba(255, 206, 86, 1)',
-          'rgba(75, 192, 192, 1)',
-          'rgba(153, 102, 255, 1)',
-          'rgba(255, 159, 64, 1)'
-        ],
+        borderColor: 'rgb(0,0,0)',
         borderWidth: 1
       }]
     },
@@ -80,7 +77,8 @@ function displayResults() {
       scales: {
         yAxes: [{
           ticks: {
-            beginAtZero:true
+            beginAtZero:true,
+            suggestedMax: 6
           }
         }]
       }
