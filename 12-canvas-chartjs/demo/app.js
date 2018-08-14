@@ -1,7 +1,8 @@
 'use strict';
 
 // constructor for goats
-function Goat(filename) {
+function Goat(name, filename) {
+  this.name = name;
   this.filename = filename;
   this.votes = 0;
   this.shown = 0;
@@ -10,11 +11,11 @@ function Goat(filename) {
 Goat.allGoats = [];
 Goat.totalVotes = 0;
 
-new Goat('img/cruisin-goat.jpg');
-new Goat('img/kissing-goat.jpg');
-var goat1 = new Goat('img/sassy-goat.jpg');
-var goat2 = new Goat('img/smiling-goat.jpg');
-new Goat('img/sweater-goat.jpg');
+new Goat('Cruiser', 'img/cruisin-goat.jpg');
+new Goat('Kisser', 'img/kissing-goat.jpg');
+var goat1 = new Goat('Sassy', 'img/sassy-goat.jpg');
+var goat2 = new Goat('Happy', 'img/smiling-goat.jpg');
+new Goat('Chilly', 'img/sweater-goat.jpg');
 
 // initialize first two goats being shown
 goat1.shown = 1;
@@ -44,6 +45,47 @@ function displayResults() {
   console.log('done');
   img1.remove();
   img2.remove();
+  var namesArray = [];
+  for (var i = 0; i < Goat.allGoats.length; i++) {
+    namesArray.push(Goat.allGoats[i].name);
+  }
+  var ctx = document.getElementById('myChart').getContext('2d');
+  var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: namesArray,
+      datasets: [{
+        label: '# of Votes',
+        data: [12, 19, 3, 5, 2, 3],
+        backgroundColor: [
+          'rgba(255, 99, 132, 0.2)',
+          'rgba(54, 162, 235, 0.2)',
+          'rgba(255, 206, 86, 0.2)',
+          'rgba(75, 192, 192, 0.2)',
+          'rgba(153, 102, 255, 0.2)',
+          'rgba(255, 159, 64, 0.2)'
+        ],
+        borderColor: [
+          'rgba(255,99,132,1)',
+          'rgba(54, 162, 235, 1)',
+          'rgba(255, 206, 86, 1)',
+          'rgba(75, 192, 192, 1)',
+          'rgba(153, 102, 255, 1)',
+          'rgba(255, 159, 64, 1)'
+        ],
+        borderWidth: 1
+      }]
+    },
+    options: {
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero:true
+          }
+        }]
+      }
+    }
+  });
 }
 
 // event listeners
