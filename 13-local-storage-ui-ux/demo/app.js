@@ -15,12 +15,21 @@ Goat.allGoats = [];
 Goat.totalVotes = 0;
 Goat.prototype.sayHi = sayHi;
 
-new Goat('Cruiser', 'img/cruisin-goat.jpg');
-new Goat('Kisser', 'img/kissing-goat.jpg');
-var goat1 = new Goat('Sassy', 'img/sassy-goat.jpg');
-var goat2 = new Goat('Happy', 'img/smiling-goat.jpg');
-new Goat('Chilly', 'img/sweater-goat.jpg');
+var loadedGoats = JSON.parse(localStorage.getItem('goats'));
+if (loadedGoats) {
+  for (var i = 0; i < loadedGoats.length; i++) {
+    new Goat(loadedGoats[i].name, loadedGoats[i].filename, loadedGoats[i].votes, loadedGoats[i].shown);
+  }
+} else {
+  new Goat('Cruiser', 'img/cruisin-goat.jpg');
+  new Goat('Kisser', 'img/kissing-goat.jpg');
+  new Goat('Sassy', 'img/sassy-goat.jpg');
+  new Goat('Happy', 'img/smiling-goat.jpg');
+  new Goat('Chilly', 'img/sweater-goat.jpg');
+}
 
+var goat1 = Goat.allGoats[2];
+var goat2 = Goat.allGoats[3];
 // initialize first two goats being shown
 goat1.shown = 1;
 goat2.shown = 1;
@@ -28,6 +37,8 @@ goat2.shown = 1;
 function displayTwoNewGoats() {
   if (Goat.totalVotes >= 10) {
     displayResults();
+    // save results to local storage
+    localStorage.setItem('goats', JSON.stringify(Goat.allGoats));
   } else {
     // show new pictures to user
     // grab 2 goats at random
@@ -58,7 +69,7 @@ function displayResults() {
     votesArray.push(Goat.allGoats[i].votes);
   }
   var ctx = document.getElementById('myChart').getContext('2d');
-  var myChart = new Chart(ctx, {
+  new Chart(ctx, { // eslint-disable-line
     type: 'bar',
     data: {
       labels: namesArray,
