@@ -1,0 +1,13 @@
+img {
+  display: inline-block;
+  max-width: 200px;
+}
+
+img {
+  transition-property: border-radius;
+  transition-duration: 3s;
+  transition-timing-function: ease-in;
+}
+img:hover {
+  border-radius: 100px;
+}

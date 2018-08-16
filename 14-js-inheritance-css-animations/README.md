@@ -1,5 +1,6 @@
 # Class 14: Advanced JS Topics and CSS Animations
 
+## [Find today's lab here!](https://github.com/codefellows/seattle-201d43-lab-14)
 <a id="top"></a>
 ## Lecture 14
 
@@ -9,6 +10,7 @@
 - [Go over the assigned readings](#readings) *[30 minutes]*
 - [Advanced JS topics](#advanced) *[30 minutes]*
 - Code demo *[60 minutes]*
+- [Lab](https://github.com/codefellows/seattle-201d43-lab-14)
 
 **Learning Objectives**
 
