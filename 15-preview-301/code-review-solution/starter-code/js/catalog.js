@@ -3,7 +3,8 @@
 'use strict';
 
 // Set up an empty cart for use on this page.
-var cart = new Cart([]);
+var cartItems = JSON.parse(localStorage.getItem('cart')).items || [];
+var cart = new Cart(cartItems);
 
 // On screen load, we call this method to put all of the busmall options
 // (the things in the Product.allProducts array) into the drop down list.
@@ -68,3 +69,4 @@ catalogForm.addEventListener('submit', handleSubmit);
 // Before anything else of value can happen, we need to fill in the select
 // drop down list in the form.
 populateForm();
+updateCounter();
