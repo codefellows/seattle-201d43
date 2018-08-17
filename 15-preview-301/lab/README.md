@@ -12,7 +12,7 @@ Assign a member of your team to each character, and then do what they do. And do
 
 Our sample team has four members: Bob, Carol, Ted, and Alice. Add a file called `FUBAR.md` to the `master` branch of the repo. When we start, everyone is totally in sync and freshly pulled from `master` on their individual laptops, and has `FUBAR.md`. Bob and Carol are pair-programming one feature in `FUBAR.md` on Carol's laptop in a new feature branch, and Ted and Alice are working on another feature in a different non-master feature branch on Ted's laptop, also in `FUBAR.md`.
 
-*** Do this exercise four times: once with each team member in each role. ***
+*** Do this exercise at least two times: once with each team member in each role. ***
 
 For the purposes of this exercise, the work you're doing on a feature, always in `FUBAR.md`, consists of adding a sentence or two of "This is what Bob & Carol did on Bob's computer when working on the first feature" and maybe a joke or something to keep your teammates amused.
 
