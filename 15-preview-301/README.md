@@ -5,7 +5,7 @@
 
 ## Today's Schedule
 - Announcements
-  - Reminder: weekly surveys will go out today
+  - Reminder: weekly surveys will go out today.
 - Discuss upcoming Career Coaching assignments
 - Code Review *[60 minutes]*
 - [301 Preview](#301) *[30 minutes]*
